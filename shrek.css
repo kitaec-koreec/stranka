@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 5px;
+  background: #e2fa59;
+}
+
+.header {
+  padding: 1px;
+  text-align: center;
+  background: rgb(126, 223, 123);
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+
+.leftcolumn {   
+  text-align: center;
+  float: left;
+  width: 75%;
+  
+}
+
+details {
+  text-align: center;
+  padding: 4px;
+  width: 100%;
+  background-color: rgb(144, 232, 235);
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+
+.rightcolumn {
+  text-align: center;
+  float: left;
+  width: 25%;
+  background-color: #e2fa59;
+  padding-left: 20px;
+}
+
+
+ .qimg {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+
+
+.card {
+  background-color: rgb(69, 199, 231);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 1px;
+  font-size: 12px;
+  text-align: center;
+  background: #3fe4db;
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+#timedate {
+  font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:left;
+  width: 50%;
+  margin: 40px auto;
+  color:#fff;
+  border-left: 3px solid #ed1f24;
+  padding: 20px;
+}
